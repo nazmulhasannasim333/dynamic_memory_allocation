@@ -15,7 +15,7 @@ int main()
     }
     arr[3] = 140;
     arr[4] = 150;
-    // delete[] a;
+    delete[] a;
     for (int i = 0; i < 5; i++)
     {
         cout << arr[i] << " ";
